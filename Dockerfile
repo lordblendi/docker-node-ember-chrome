@@ -8,7 +8,7 @@ RUN apt-get update \
   && apt-get install -y google-chrome-stable \
   && rm -rf /var/lib/apt/lists/*
 
-ARG ember_version=3.4.2
+ARG ember_version=3.4.3
 
 # Install ember
 RUN yarn global add ember-cli@$ember_version
