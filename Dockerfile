@@ -1,4 +1,4 @@
-FROM node:8.11.2
+FROM node:10.16.3
 MAINTAINER Nora Szepes <me@szepesnora.com>
 
 # Install Google Chrome
