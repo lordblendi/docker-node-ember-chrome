@@ -12,3 +12,6 @@ ARG ember_version=3.4.3
 
 # Install ember
 RUN yarn global add ember-cli@$ember_version
+
+# Install curl
+RUN apt-get -y install curl
